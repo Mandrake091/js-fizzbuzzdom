@@ -6,35 +6,36 @@
 
 body {
     background-color: rgb(44, 44, 44);
-    color: antiquewhite;
+    
 }
 .square{
+    color: black;
     background-color: rgb(0, 217, 255);
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    color: rgb(255, 255, 255);
+ 
     box-shadow:  2px 1px 5px #000000;
-   
     display: flex;
     justify-content: center;
 
     align-items: center;
 }
 h1{
+    margin: 0;
     font-size: 20px;
 }
 .color-0{
-    background-color:red;
+    background-color:#f0466f;
 }
 
 .color-1{
-    background-color: blue;
+    background-color: #ffd166;
 }
 
 .color-2{
-    background-color: green;
+    background-color: #0bd6a1;
 }
 .color-3{
-    background-color: rgb(149, 0, 255);
+    background-color: rgba(19,137,178,255);
 }
