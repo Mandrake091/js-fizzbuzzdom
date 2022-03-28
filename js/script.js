@@ -1,19 +1,20 @@
 /*
 graph TD
 START --> A((Ciclare numeri da 1 a 100))
-A-->B{Numero divisibile per 3?}
-B-->|si|C{Ed è anche divisibile per 5?}
+A-->B{I numeri sono divisibili per 3 e per 5?}
+B-->|si|C[Stampa:FizzBuzz]
 B-->|no|D{Divisibile per 5?}
-D-->|no|E[Output numero]
-C-->|no|F["Output-"Fizz""]
-C-->|si|G["Output-FizzBuzz"]
-D-->|si|H["Output-Buzz"]
-E & F & G & H-->I[Fine]
+D-->|no|E{Divisibile per 3?}
+D-->|si|H["Stampa:Buzz"]
+E-->|si|I[Stampa:Fizz]
+E-->|no|F[Stampa:Buzz]
+F & I & H & C -->Z[Fine]
 */
 
 
 
 let maxNum = 100;
+
 for (let i = 1; i <= maxNum; i++) {
 
     if (i % 3 == 0 && i % 5 == 0) {
