@@ -22,12 +22,8 @@ app.append(row);
 for (let i = 1; i <= maxNum; i++) {
 
     const col = document.createElement('div');
-
     col.setAttribute('class', 'col-12 col-sm-6 col-md-4 col-lg-2');
-
     const square = document.createElement('div');
-
-
 
     if (i % 3 == 0 && i % 5 == 0) {
         console.log((i) + " : FizzBuzz");
