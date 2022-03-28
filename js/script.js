@@ -7,7 +7,7 @@ B-->|no|D{Divisibile per 5?}
 D-->|no|E{Divisibile per 3?}
 D-->|si|H["Stampa:Buzz"]
 E-->|si|I[Stampa:Fizz]
-E-->|no|F[Stampa:Buzz]
+E-->|no|F[Stampa: Numeri rimanenti]
 F & I & H & C -->Z[Fine]
 */
 
