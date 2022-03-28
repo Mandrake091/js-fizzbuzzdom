@@ -11,18 +11,16 @@ E-->|no|F[Stampa:Buzz]
 F & I & H & C -->Z[Fine]
 */
 
-
-
 let maxNum = 100;
 const app = document.getElementById('app');
 const row = document.createElement('div');
-row.setAttribute('class', 'row g-3')
+row.setAttribute('class', 'row g-2')
 app.append(row);
 
 for (let i = 1; i <= maxNum; i++) {
 
     const col = document.createElement('div');
-    col.setAttribute('class', 'col-12 col-sm-6 col-md-4 col-lg-2');
+    col.setAttribute('class', 'col-4 col-sm-4 col-md-2 col-lg-2');
     const square = document.createElement('div');
 
     if (i % 3 == 0 && i % 5 == 0) {
