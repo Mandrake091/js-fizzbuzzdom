@@ -10,16 +10,17 @@ body {
     width: 100vw;
     height: 100vh;
 }
-.bucket{
+.square{
     background-color: rgb(0, 217, 255);
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    text-align: center;
-    line-height: 100px;
     color: rgb(255, 255, 255);
     font-size: 24px;
     box-shadow:  2px 1px 15px #aaaaaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .color-0{
     background-color:red;
